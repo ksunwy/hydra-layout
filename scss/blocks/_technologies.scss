@@ -1,0 +1,61 @@
+.tech__board {
+    position: relative;
+    text-align: center;
+}
+
+.tech__body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tech_subtitle {
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.board__btn {
+    border: none;
+    outline: none;
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.tech__row {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-content: center;
+}
+
+.tech__icon-engine {
+    max-width: 174px;
+    @include hovering;
+}
+
+.tech__icon-unity {
+    max-width: 252px;
+    @include hovering;
+}
+
+.tech__icon-oculus {
+    max-width: 263px;
+    @include hovering;
+}
+
+.tech__icon-vive {
+    max-width: 282px;
+    @include hovering;
+}
+
+.a {
+    @include hovering;
+}

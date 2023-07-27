@@ -1,0 +1,76 @@
+.numbers {
+    width: 100%;
+    margin-top: 138px;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    margin-bottom: 112px;
+}
+
+.numbers__row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.numbers__item {
+    width: 278px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.numbers__imgs {
+    position: relative;
+
+}
+
+.numbers__circle {
+    background: #0E0E0E;
+    opacity: 0.32;
+    width: 198px;
+    height: 198px;
+    border: none;
+    outline: none;
+    border-radius: 100%;
+    margin: 0 auto;
+    padding: 19px;
+    margin-bottom: 25px;
+}
+
+.numbers__img {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    margin-top: 20px;
+}
+
+.numbers__body {
+    display: flex;
+    margin-left: 35px;
+}
+
+.numbers__text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 15.54px;
+}
+
+.one {
+    margin-right: 75px;
+}
+
+.two {
+    margin-right: 75px;
+}
+
+.three {
+    margin-right: 75px;
+}

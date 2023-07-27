@@ -1,0 +1,78 @@
+.cards {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 114px;
+}
+
+.cards__row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.card__item {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 315px;
+    height: 511px;
+    background: radial-gradient(circle at center, #3A3456, #211E2E);
+    margin-right: 11px;
+    margin-bottom: 0;
+    padding: 21px 33px 23px 38px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    margin-top: 102px;
+}
+
+.card__avatar {
+    position: relative;
+}
+
+.card__circle {
+    background: #0E0E0E;
+    opacity: 0.32;
+    width: 219px;
+    height: 219px;
+    border: none;
+    outline: none;
+    border-radius: 100%;
+    margin: 0 auto;
+    padding: 13px;
+}
+
+.card__ava {
+    width: 190px;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    margin-top: 13.64px;
+}
+
+.card__title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 21px;
+    padding: 17px;
+    border-bottom: 1px solid #625b7e;
+    text-align: center;
+    margin: 21px auto;
+}
+
+.card__text {
+    max-width: 250px;
+    font-size: 12px;
+}
+
+.card__button {
+    max-width: 154px;
+    display: block;
+    margin-top: 35px;
+    margin-left: 46px;
+}

@@ -1,0 +1,37 @@
+.about {
+    margin-top: 69px;
+    align-items: center;
+    position: relative;
+}
+
+.about__part {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__left {
+    margin-right: 118px;
+}
+
+.about__img {
+    width: 524px;
+}
+
+.about__right {
+    position: absolute;
+    right: 0;
+    margin-top: 50px;
+    margin-left: 100px;
+    max-width: 640px;
+}
+
+.about__subtitle {
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.about__text {
+    margin-top: 42px;
+    line-height: 1.55;
+    margin-bottom: 28px;
+}
